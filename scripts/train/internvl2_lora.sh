@@ -9,7 +9,7 @@ MODEL_NAME="internvl2-8b"
 
 MODEL_PATH="models/InternVL2-8B"
 
-DATA_PATH="ReachQA/data/reachqa_train/instruction_data_20k_swift_minicpm.json"
+DATA_PATH="ReachQA/data/reachqa_train/instruction_data_20k_swift_internvl.json"
 
 OUTPUT_PATH="ReachQA/models/${MODEL_NAME}-reachqa-20k-lora"
 
