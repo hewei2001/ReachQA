@@ -3,7 +3,7 @@
     from LLMs to MLLMs
 </h1></div>
 
-This is the official repository for 📃 [Distill Visual Chart Reasoning Ability from LLMs to MLLMs](#).
+This is the official repository for 📃 [Distill Visual Chart Reasoning Ability from LLMs to MLLMs](https://arxiv.org/abs/2410.18798).
 
 You have two options to obtain our dataset:
 
@@ -189,11 +189,19 @@ bash ./scripts/eval/run_openai_evaluation.sh
 
 <div align=center><img src="./assets/attention.png" width="90%" /></div>
 
-> FIgure: An example of **attention visualization** from the ChartQA dataset. The top row shows the results from the vanilla LLaVA-Next-Llama3-8B model, while the bottom row displays the results from our fine-tuned model. For each output, we present the attention distribution (highlighted zones) at **three key steps**, calculated by averaging the attention values of all tokens in each step.
+> Figure: An example of **attention visualization** from the ChartQA dataset. The top row shows the results from the vanilla LLaVA-Next-Llama3-8B model, while the bottom row displays the results from our fine-tuned model. For each output, we present the attention distribution (highlighted zones) at **three key steps**, calculated by averaging the attention values of all tokens in each step.
 
 
 ## 🔎Citation
 
 ```
-TODO
+@misc{he2024distillvisualchartreasoning,
+      title={Distill Visual Chart Reasoning Ability from LLMs to MLLMs}, 
+      author={Wei He and Zhiheng Xi and Wanxu Zhao and Xiaoran Fan and Yiwen Ding and Zifei Shan and Tao Gui and Qi Zhang and Xuanjing Huang},
+      year={2024},
+      eprint={2410.18798},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.18798}, 
+}
 ```
