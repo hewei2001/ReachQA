@@ -3,7 +3,7 @@
     from LLMs to MLLMs
 </h1></div>
 
-This is the official repository for 📃 [Distill Visual Chart Reasoning Ability from LLMs to MLLMs](https://arxiv.org/abs/2410.18798).
+This is the official repository for 📃[Distill Visual Chart Reasoning Ability from LLMs to MLLMs](https://arxiv.org/abs/2410.18798).
 
 You have two options to obtain our dataset:
 
@@ -183,16 +183,13 @@ If you have any questions, please feel free to reach us at [whe23@m.fudan.edu.cn
 
 ## 🔎Citation
 
-If you find our work helpful, please feel free to cite us using the following BibTeX entry:
+If you find our work helpful or relevant to your research, please kindly cite our paper:
 
 ```
-@misc{he2024distill,
+@article{he2024distill,
       title={Distill Visual Chart Reasoning Ability from LLMs to MLLMs}, 
-      author={Wei He and Zhiheng Xi and Wanxu Zhao and Xiaoran Fan and Yiwen Ding and Zifei Shan and Tao Gui and Qi Zhang and Xuanjing Huang},
-      year={2024},
-      eprint={2410.18798},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2410.18798}, 
+      author={He, Wei and Xi, Zhiheng and Zhao, Wanxu and Fan, Xiaoran and Ding, Yiwen and Shan, Zifei and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing},
+      journal={arXiv preprint arXiv:2410.18798},
+      year={2024}
 }
 ```
