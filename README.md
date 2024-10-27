@@ -50,10 +50,7 @@ cd ReachQA
 conda create -n ReachQA_train python=3.10 -y
 conda activate ReachQA_train
 
-git clone https://github.com/modelscope/swift.git
-cd swift
-pip install -e '.[llm]'
-pip install timm
+pip install -r requirements_train.txt --force-reinstall --no-deps
 ```
 
 ## 🌳Project Structure
