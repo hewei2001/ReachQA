@@ -174,6 +174,14 @@ bash ./scripts/eval/run_openai_evaluation.sh
 
 > Figure: An example of **attention visualization** from the ChartQA dataset. The top row shows the results from the vanilla LLaVA-Next-Llama3-8B model, while the bottom row displays the results from our fine-tuned model. For each output, we present the attention distribution (highlighted zones) at **three key steps**, calculated by averaging the attention values of all tokens in each step.
 
+## 📌TODOs
+
+- [x] Release the implementation of Code-as-Intermediary Translation (CIT).
+- [x] Release the example code for training & evaluation.
+- [x] Release the full ReachQA dataset we used in this paper.
+- [ ] Release the [vllm](https://github.com/vllm-project/vllm)-implementation of CIT, for generating data with open-source LLMs.
+- [ ] Release the manually curated ReachQA-v2 training set.
+
 ## 📧Contact
 
 If you have any questions, please feel free to reach us at [whe23@m.fudan.edu.cn](mailto:whe23@m.fudan.edu.cn).
