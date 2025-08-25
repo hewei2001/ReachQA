@@ -10,6 +10,8 @@ You have two options to obtain our dataset:
 1. Download directly from the 🤗**HuggingFace** Datasets: [hewei2001/ReachQA](https://huggingface.co/datasets/hewei2001/ReachQA).
 2. Clone this repository and **generate 📊charts using the synthetic code**: The process takes about **3 minutes**!
 
+🎉 Our paper is accepted to EMNLP 2025 Findings.
+
 ## 📖Introduction
 
 ### 🔮Code-as-Intermediary Translation
@@ -179,8 +181,6 @@ bash ./scripts/eval/run_openai_evaluation.sh
 - [x] Release the implementation of Code-as-Intermediary Translation (CIT).
 - [x] Release the example code for training & evaluation.
 - [x] Release the full ReachQA dataset we used in this paper.
-- [ ] Release the [vllm](https://github.com/vllm-project/vllm)-implementation of CIT, for generating data with open-source LLMs.
-- [ ] Release the manually curated ReachQA-v2 training set.
 
 ## 📧Contact
 
@@ -191,10 +191,10 @@ If you have any questions, please feel free to reach us at [whe23@m.fudan.edu.cn
 If you find our work helpful or relevant to your research, please kindly cite our paper:
 
 ```
-@article{he2024distill,
-      title={Distill Visual Chart Reasoning Ability from LLMs to MLLMs}, 
-      author={He, Wei and Xi, Zhiheng and Zhao, Wanxu and Fan, Xiaoran and Ding, Yiwen and Shan, Zifei and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing},
-      journal={arXiv preprint arXiv:2410.18798},
-      year={2024}
+@inproceedings{he2025distill,
+	title={Distill Visual Chart Reasoning Ability from LLMs to MLLMs},
+	author={He, Wei and Xi, Zhiheng and Zhao, Wanxu and Fan, Xiaoran and Ding, Yiwen and Shan, Zifei and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing},
+	booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+	year={2025}
 }
 ```
